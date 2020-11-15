@@ -5,7 +5,7 @@ cd tempo
 wget https://github.com/termNinja/vim-vstudio-theme/archive/master.zip
 unzip master.zip
 cd vim-vstudio-theme-master/
-cp -vi --preserve=all ./vstudioDark.vim /usr/share/vim/vim74/colors/
+cp -vi --preserve=all ./vstudioDark.vim /usr/share/vim/vim*/colors/
 cd ~
 rm -vrf ./tempo
 #################################################################################
